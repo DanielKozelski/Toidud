@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #eed70a;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #eed70a;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #91141462;
+  padding: 20px;
+}
+</style>
+</head>
+<body background="Pildid/china-red-1006697_1920.jpg">
+
+<h3>Võta ühendust</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Eesnimi</label>
+    <input type="text" id="fname" name="firstname" placeholder="Sinu nimi..">
+
+    <label for="lname">Perekonnanimi</label>
+    <input type="text" id="lname" name="lastname" placeholder="Sinu perekonnanimi..">
+
+    <label for="subject">Sisesta teema millest soovid rääkida</label>
+    <textarea id="subject" name="subject" placeholder="Kirjuta midagi siia.." style="height:200px"></textarea>
+
+    <input type="submit" value="Saada">
+  </form>
+</div>
+
+</body>
+</html>

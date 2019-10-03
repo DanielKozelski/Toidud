@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Küpsisetort</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Päise stiil */
+header {
+  background-color: rgba(102, 102, 102, 0);
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color:black;
+}
+
+/* Tegin kaks veergu / kasti, mis hõljuvad üksteise kõrval */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; 
+  background: rgba(204, 204, 204, 0.171);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgba(204, 204, 204, 0.171);
+  height: 400px; 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Jaluse stiil */
+footer {
+  background-color: rgba(204, 204, 204, 0.171);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/* Vastuvõtlik paigutus - paneb kaks veergu / kasti üksteise kõrval väikestel ekraanidel üksteise peale virna */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body background="Pildid/triangle-2724449.png">
+
+<header>
+  <h2>Küpsisetort</h2>
+</header>
+
+<section>
+  <nav>
+    <h1>Koostisosad:</h1>
+    <p>3-4 pakki kandilisi küpsiseid (a 180 g)</p>
+    <p>1-2 dl piima</p>
+    <p>750 g Saare 20% hapukoort</p>
+    <h4>Šokolaadiglasuur:</h4>
+    <p>100 g tumedat šokolaadi</p>
+    <p>50 g võid</p>
+    <p>0.5 dl 35% rõõska koort</p>
+    <h4>Kaunistuseks:</h4>
+    <p>pärlsuhkrut</p>
+  </nav>
+  
+  <article>
+    <h1>Valmistamine:</h1>
+    <p>Kasta küpsised korraks piima sisse ja laota vaagnale (3x4 küpsist). Määri peale kolmandik hapukoorest.</p>
+    <br>
+    <p>Kasta jälle küpsised piima sisse, laota hapukoorekihile ja kata küpsised taas hapukoorega. Korda. Laota peale veel üks kiht piima sisse kastetud küpsiseid. (Saad neli küpsisekihti ja kolm hapukoorekihti).</p>
+    <br>
+    <p>Šokolaadiglasuuri jaoks murra šokolaad tükkideks ning pane koos või ja rõõsa koorega väikesesse potti. Kuumuta tasasel tulel pidevalt segades, kuni glasuur on ühtlane.</p>
+    <br>
+    <p>Määri šokolaadiglasuur koogile, puista kaunistuseks peale pärlsuhkrut.</p>
+    <br>
+    <p>Hoia järgmise päevani jahedas, et küpsisekihid jõuaksid kenasti läbi imbuda.</p>
+  </article>
+</section>
+    <footer>
+        <h3><p>Loodan, et teile maitseb Küpsisetort</p></h3>
+    </footer>
+</body>
+</html>
